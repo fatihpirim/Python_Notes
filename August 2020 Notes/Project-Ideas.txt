@@ -1,0 +1,15 @@
+Project Ideas
+
+- Django Website
+
+- Web Scraper
+    - Track Amazon Prices
+    - Track Stocks
+    - Download Tweets
+    - eBay BOT
+    
+- Create Game using PyGame
+
+- Build a GUI
+
+- Robotics
