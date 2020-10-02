@@ -1,0 +1,42 @@
+1. Setting up Virtual Environment
+
+# set up virtual env so that newer versions dont conflict with older versions
+
+Command Line:
+
+pip3 install virtualenvwrapper-win
+
+mkvirtualenv my_django_environment
+
+Using Virtual Environment:
+
+deactivate — Exit out of the current Python virtual environment
+workon — List available virtual environments
+workon name_of_environment — Activate the specified Python virtual environment
+rmvirtualenv name_of_environment — Remove the specified environment.
+
+---------------------------------------------------------------
+
+2. Installing Django
+
+pip3 install django~=2.2
+
+# To check if Django is installed:
+
+py -3 -m django --version
+
+---------------------------------------------------------------
+
+3. Testing Installation
+
+mkdir django_test
+cd django_test
+
+# create skeleton site called "mytestsite:
+django-admin startproject mytestsite
+cd mytestsite
+
+# run development web server in mytestsite folder using manage.py
+python3 manage.py runserver
+
+http://127.0.0.1:8000/ =
